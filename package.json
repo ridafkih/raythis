@@ -1,8 +1,8 @@
 {
 	"name": "ray-this",
-	"displayName": "Ray This",
-	"description": "Instantly upload your code to ray.so to quickly share with others.",
-	"version": "0.0.1",
+	"displayName": "RayThis",
+	"description": "Instantly deploy code snippets to ray.so to share with others!",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.53.0"
 	},
@@ -10,24 +10,21 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:ray-this.helloWorld"
+		"onCommand:ray-this.publishSelectedSnippet"
 	],
-	"main": "./out/extension.js",
+	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "ray-this.helloWorld",
-				"title": "Hello World"
+				"command": "ray-this.publishSelectedSnippet",
+				"title": "RayThis: Upload Snippet"
 			}
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile && npm run lint",
-		"lint": "eslint src --ext ts",
-		"test": "node ./out/test/runTest.js"
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.53.0",
@@ -35,11 +32,12 @@
 		"@types/mocha": "^8.0.4",
 		"@types/node": "^12.11.7",
 		"eslint": "^7.19.0",
-		"@typescript-eslint/eslint-plugin": "^4.14.1",
-		"@typescript-eslint/parser": "^4.14.1",
 		"glob": "^7.1.6",
 		"mocha": "^8.2.1",
 		"typescript": "^4.1.3",
 		"vscode-test": "^1.5.0"
+	},
+	"dependencies": {
+		"open": "^7.4.2"
 	}
 }
