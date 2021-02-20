@@ -86,21 +86,15 @@ function activate(context) {
 			colors: "breeze",
 			padding: "16"
 		});
-
-		console.log(url);
-
-		vscode.env.openExternal(vscode.Uri.parse(url));
 		
 		showInformationMessage(
-			`Successfully generated Ray.so snippet!`,
-			"View"
-		).then(() =>
-			open(url)
+			`Successfully generated Ray.so snippet!`
 		);
 
 		open(url);
 	});
 
+  context.subscriptions.push(publishSelectedSnippet);
 }
 
 // this method is called when your extension is deactivated
