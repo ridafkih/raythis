@@ -1,65 +1,16 @@
-# ray-this README
+# RayThis [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20RayThis%20by%20@garbagerida%20to%20automatically%20upload%20your%20code%20snippets%20right%20from%20Visual%20Studio%20Code,%20powered%20by%20RayCast.%20@raycastapp%20%0A%0Ahttps://github.com/ridarf/ray-this/) [![Follow](https://img.shields.io/twitter/follow/garbagerida.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=itsShanKhan) 
+##### Instantly upload your code snippets to ray.so without having to swap between the browser.
+___
+RayThis is obviously powered by RayCast's ray.so, so obviously all credit goes out to them! They develop some great software, so definitely go check out what they've made! If you want to view more things I've created, go ahead and follow me on Twitter [@garbagerida](https://twitter.com/garbagerida), I promise I just might impress you one day!
 
-This is the README for your extension "ray-this". After writing up a brief description, we recommend including the following sections.
+I made the VSCode extension because I was bored, and needed a break from my default project. That's literally it.
 
-## Features
+___
+### Usage Instructions
+1. Select text.
+2. Click `Ctrl + Shift + P` to open the command palette.
+3. Type `"RayThis"` and click `Enter`.
+4. RayThis will quickly open the generated snippet in your browser.
+5. Profit.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![GIF of plugin being used](https://i.imgur.com/lyQi9XA.gif)
