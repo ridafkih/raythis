@@ -5,7 +5,7 @@ RayThis is obviously powered by RayCast's [Ray.so](Ray.so), all credit goes out 
 
 Want to keep track of the software I make? Follow me on Twitter [@garbagerida](https://twitter.com/garbagerida), I promise I just might impress you one day!
 
-I made the VSCode extension because I was bored, and needed a break from my default project. That's literally it.
+I made the VSCode extension because I was bored, and needed a break from my default project, and thought it'd be useful. That's literally it.
 ___
 ### Usage Instructions
 1. Select text.
