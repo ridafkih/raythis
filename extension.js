@@ -48,7 +48,10 @@ const generateRayUrl = (
 	options = {}
 ) => {
 	const objParams = {...options, code: generateEncodedCode(code)},
-				parameters = Object.keys(objParams).map(key => `${key}=${encodeURIComponent(objParams[key])}`).join("&");
+	      parameters = Object.keys(objParams).map(key => 
+			    `${key}=${encodeURIComponent(objParams[key])}`
+	      ).join("&");
+		  
 	return "https://ray.so/?" + parameters;
 }
 
