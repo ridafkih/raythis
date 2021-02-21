@@ -6,6 +6,7 @@ RayThis is obviously powered by RayCast's ray.so, so obviously all credit goes o
 
 I made the VSCode extension because I was bored, and needed a break from my default project. That's literally it.
 
+[![ProductHunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=285328&theme=dark)](https://www.producthunt.com/posts/raythis-ray-so-in-vscode)
 ___
 ### Usage Instructions
 1. Select text.
