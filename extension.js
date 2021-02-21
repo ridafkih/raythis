@@ -55,10 +55,10 @@ const generateRayUrl = (
 function correctIndentation(text) {
 	const lines = text.split("\n");
 	const indents = lines.filter(Boolean).map(line => {
-		return (line.split(/[^\t\s]/).filter(Boolean)[0] || "").length;
+		return (line.split(/[^\t\s]/)[0] || "").length;
 	});
 	const minimumLength = Math.min(...indents);
-	return lines.map(x => x.slice(minimumLength)).join("\n");
+	return lines.map(x => x.slice(minimumLength)).join("\n").trim();
 }
 
 function activate(context) {
