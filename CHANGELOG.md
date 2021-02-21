@@ -15,7 +15,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Fixed
 - Uploading one-liners.
 
-## [1.0.2] - 2021-0-21
+## [1.0.2] - 2021-02-21
 
 ### Fixed
 - Single line uploads were deleting the first two characters
