@@ -53,11 +53,15 @@ const generateRayUrl = (
 };
 
 function correctIndentation(text) {
+	console.log(text);
 	const lines = text.split("\n");
+	console.log(lines);
 	const indents = lines.filter(Boolean).map(line => {
-		return line.split(/[^\t\s]/).filter(Boolean)[0].length;
+		return (line.split(/[^\t\s]/).filter(Boolean)[0] || "").length;
 	});
+	console.log(indents);
 	const minimumLength = Math.min(...indents);
+	console.log(minimumLength);
 	return lines.map(x => x.slice(minimumLength)).join("\n");
 }
 
