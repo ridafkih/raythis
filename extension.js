@@ -52,6 +52,15 @@ const generateRayUrl = (
 	return "https://ray.so/?" + parameters;
 };
 
+function correctIndentation(text) {
+	const lines = text.split("\n");
+	const indents = lines.filter(Boolean).map(line => {
+		return line.split(/[^\t\s]/).filter(Boolean)[0].length;
+	});
+	const minimumLength = Math.min(...indents);
+	return lines.map(x => x.slice(minimumLength)).join("\n");
+}
+
 function activate(context) {
 	
 	const publishSelectedSnippet = vscode.commands.registerCommand("ray-this.publishSelectedSnippet", () => {
@@ -81,7 +90,7 @@ function activate(context) {
 
 		// * Generate URL & open in default browser,
 		// * then send success message.
-		const url = generateRayUrl(selectedContent, {
+		const url = generateRayUrl(correctIndentation(selectedContent), {
 			title: "Uploaded using RayThis Extension",
 			colors: "breeze",
 			padding: "16"
