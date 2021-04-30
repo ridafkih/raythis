@@ -1,5 +1,10 @@
+const fs = require('fs');
+const path = require('path');
+
 const open = require("open");
 const vscode = require("vscode");
+
+const filetypes = JSON.parse(fs.readFileSync(path.resolve(__dirname, "filetypes.json"), "utf-8"));
 
 /**
  * Generates modified Base64 Encoded String
@@ -49,7 +54,7 @@ const generateRayUrl = (
 	code,
 	options = {}
 ) => {
-	const objParams = {...options, code: generateEncodedCode(code), language: options.language || "auto"},
+	const objParams = {...options, code: generateEncodedCode(code), language: getLanguageName()},
 	      parameters = Object.keys(objParams).map(key => 
 			    `${key}=${encodeURIComponent(objParams[key])}`
 	      ).join("&");
@@ -64,6 +69,15 @@ function correctIndentation(text) {
 	});
 	const minimumLength = Math.min(...indents);
 	return lines.map(x => x.slice(minimumLength)).join("\n").trim();
+}
+
+function getLanguageName() {
+	const tabFilePath = vscode.window.activeTextEditor.document.fileName;
+	const segments = tabFilePath.split(".");
+	if (!segments.length) return;
+	const extension = segments[segments.length - 1].toLowerCase();
+	const [language] = filetypes.filter(({ extensions }) => extensions.includes(extension));
+	return language ? language.value : "auto";
 }
 
 function activate(context) {

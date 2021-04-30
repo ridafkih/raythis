@@ -1,0 +1,198 @@
+[
+  {
+    "value": "shell",
+    "extensions": ["sh"]
+  },
+  {
+    "value": "c-like",
+    "extensions": ["h", "cpp"]
+  },
+  {
+    "value": "csharp",
+    "extensions": ["cs"]
+  },
+  {
+    "value": "closure",
+    "extensions": ["clj", "cljs", "cljc", "edn"]
+  },
+  {
+    "value": "coffeescript",
+    "extensions": ["coffee", "litcoffee"]
+  },
+  {
+    "value": "crystal",
+    "extensions": ["rpt"]
+  },
+  {
+    "value": "css",
+    "extensions": ["css", "scss", "less", "hss", "ccss", "pcss", "sass"]
+  },
+  {
+    "value": "d",
+    "extensions": ["d"]
+  },
+  {
+    "value": "dart",
+    "extensions": ["dart"]
+  },
+  {
+    "value": "diff",
+    "extensions": ["diff"]
+  },
+  {
+    "value": "dockerfile",
+    "extensions": ["dockerfile"]
+  },
+  {
+    "value": "elm",
+    "extensions": ["elm"]
+  },
+  {
+    "value": "erlang",
+    "extensions": ["erlang"]
+  },
+  {
+    "value": "fortran",
+    "extensions": ["f90", "for", "f"]
+  },
+  {
+    "value": "gherkin",
+    "extensions": ["feature"]
+  },
+  {
+    "value": "go",
+    "extensions": ["go"]
+  },
+  {
+    "value": "groovy",
+    "extensions": ["groovy", "gvy", "gy", "gsh"]
+  },
+  {
+    "value": "haskell",
+    "extensions": ["hs"]
+  },
+  {
+    "value": "xml",
+    "extensions": ["xml"]
+  },
+  {
+    "value": "java",
+    "extensions": ["java", "ins", "jar", "jnl"]
+  },
+  {
+    "value": "javascript",
+    "extensions": ["js"]
+  },
+  {
+    "value": "json",
+    "extensions": ["json"]
+  },
+  {
+    "value": "jsx",
+    "extensions": ["jsx", "tsx", "html", "htm"]
+  },
+  {
+    "value": "julia",
+    "extensions": ["jl"]
+  },
+  {
+    "value": "kotlin",
+    "extensions": ["kt", "kts", "ktm"]
+  },
+  {
+    "value": "latex",
+    "extensions": ["tex"]
+  },
+  {
+    "value": "lisp",
+    "extensions": ["lisp", "lsp", "l", "cl", "fasl"]
+  },
+  {
+    "value": "lua",
+    "extensions": ["lua"]
+  },
+  {
+    "value": "markdown",
+    "extensions": ["md"]
+  },
+  {
+    "value": "mathematica",
+    "extensions": ["mb"]
+  },
+  {
+    "value": "octave",
+    "extensions": ["m"]
+  },
+  {
+    "value": "objectivec",
+    "extensions": ["h", "m", "mm", "M"]
+  },
+  {
+    "value": "ocaml",
+    "extensions": ["ml"]
+  },
+  {
+    "value": "perl",
+    "extensions": ["pl"]
+  },
+  {
+    "value": "php",
+    "extensions": ["phtml", "php3", "php4", "php5", "phps"]
+  },
+  {
+    "value": "powershell",
+    "extensions": ["ps1", "psd1", "psm1"]
+  },
+  {
+    "value": "python",
+    "extensions": ["py", "pyc", "pyo"]
+  },
+  {
+    "value": "r",
+    "extensions": ["r", "rdata", "rds", "rda"]
+  },
+  {
+    "value": "ruby",
+    "extensions": ["rb"]
+  },
+  {
+    "value": "rust",
+    "extensions": ["rs", "rlib"]
+  },
+  {
+    "value": "scala",
+    "extensions": ["scala", "sc"]
+  },
+  {
+    "value": "sql",
+    "extensions": ["sql"]
+  },
+  {
+    "value": "swift",
+    "extensions": ["swift"]
+  },
+  {
+    "value": "typescript",
+    "extensions": ["ts"]
+  },
+  {
+    "value": "twig",
+    "extensions": ["twig"]
+  },
+  {
+    "value": "verilog",
+    "extensions": ["v", "vh"]
+  },
+  {
+    "value": "vhdl",
+    "extensions": ["vhd", "vhdl"]
+  },
+  {
+    "value": "xquery",
+    "extensions": []
+  },
+  {
+    "value": "yaml",
+    "extensions": ["xq", "xql", "xqm", "xqy", "xquery", "yaml"]
+  }
+]
