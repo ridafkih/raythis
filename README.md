@@ -1,4 +1,4 @@
-# RayThis [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20RayThis%20by%20@ridafkih%20to%20automatically%20upload%20your%20code%20snippets%20right%20from%20Visual%20Studio%20Code,%20powered%20by%20RayCast.%20@raycastapp%20%0A%0Ahttps://github.com/ridarf/ray-this/) [![Follow](https://img.shields.io/twitter/follow/ridafkih.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=ridafkih)
+# RayThis [![Tweet](https://img.shields.io/twitter/url/http/shields.io.png?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20RayThis%20by%20@ridafkih%20to%20automatically%20upload%20your%20code%20snippets%20right%20from%20Visual%20Studio%20Code,%20powered%20by%20RayCast.%20@raycastapp%20%0A%0Ahttps://github.com/ridarf/ray-this/) [![Follow](https://img.shields.io/twitter/follow/ridafkih.png?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=ridafkih)
 
 ##### Instantly upload your code snippets to ray.so without having to swap between the browser.
 ___
@@ -6,7 +6,7 @@ RayThis is obviously powered by RayCast's ray.so, so obviously all credit goes o
 
 I made the VSCode extension because I was bored, and needed a break from my default project. That's literally it.
 
-[![ProductHunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=285328&theme=dark)](https://www.producthunt.com/posts/raythis-ray-so-in-vscode)
+[![ProductHunt](https://api.producthunt.com/widgets/embed-image/v1/featured.png?post_id=285328&theme=dark)](https://www.producthunt.com/posts/raythis-ray-so-in-vscode)
 ___
 ### Usage Instructions
 1. Select text.
