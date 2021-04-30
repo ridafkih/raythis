@@ -4,7 +4,7 @@
 	"description": "Instantly deploy beautiful code snippets to Ray.so without leaving your coding environment.",
 	"icon": "256x256.png",
 	"publisher": "Goopware",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"repository": {
 		"url": "https://github.com/ridarf/raythis"
 	},
