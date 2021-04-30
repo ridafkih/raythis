@@ -39,6 +39,8 @@ const generateEncodedCode = str => Buffer.from(str).toString("base64");
 		around the content of the uploaded text.
 	* @param {String} [options.title]
 		The title of the code snippet.
+	* @param {String} [options.language]
+		The language the code is in
 	* @param {String} code
 		The snippet of code.
 	* @returns {String} Returns the URL of the snippet.
@@ -47,7 +49,7 @@ const generateRayUrl = (
 	code,
 	options = {}
 ) => {
-	const objParams = {...options, code: generateEncodedCode(code)},
+	const objParams = {...options, code: generateEncodedCode(code), language: options.language || "auto"},
 	      parameters = Object.keys(objParams).map(key => 
 			    `${key}=${encodeURIComponent(objParams[key])}`
 	      ).join("&");
