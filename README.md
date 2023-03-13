@@ -16,3 +16,5 @@ ___
 5. Profit.
 
 ![GIF of plugin being used](https://i.imgur.com/lyQi9XA.gif)
+
+###### contributed to by [LJ-Court](https://github.com/LJ-Court)

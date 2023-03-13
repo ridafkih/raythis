@@ -59,7 +59,7 @@ const generateRayUrl = (
 			    `${key}=${encodeURIComponent(objParams[key])}`
 	      ).join("&");
 		  
-	return "https://ray.so/?" + parameters;
+	return "https://ray.so/#" + parameters;
 }
 
 function correctIndentation(text) {
