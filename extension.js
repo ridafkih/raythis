@@ -21,7 +21,7 @@ const generateEncodedCode = (str) => Buffer.from(str).toString("base64");
  * @param {Object} [options]
 		Query parameters to be used to 
 		construct the completed request.
-	* @param {('candy'|'breeze'|'midnight'|'sunset')} [options.theme]
+	* @param {('breeze'|'candy'|'crimson'|'falcon'|'meadow'|'midnight'|'raindrop'|'sunset')} [options.theme]
 		The color scheme you want the
 		uploaded code to have.
 	* @param {(
