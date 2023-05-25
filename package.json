@@ -45,7 +45,7 @@
         "configuration": {
             "title": "Ray This Screenshots",
             "properties": {
-                "rayThis.padding": {
+                "raythis.padding": {
                     "type": "string",
                     "default": "16",
                     "enum": [
@@ -62,12 +62,12 @@
                     ],
                     "description": "Default image padding"
                 },
-                "rayThis.title": {
+                "raythis.title": {
                     "type": "string",
                     "default": "Uploaded using RayThis Extension",
                     "description": "Default snippet title"
                 },
-                "rayThis.theme": {
+                "raythis.theme": {
                     "type": "string",
                     "default": "breeze",
                     "enum": [
