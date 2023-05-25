@@ -118,12 +118,21 @@ function activate(context) {
 				Please select the text you would like to be included in your snippet.`
                 );
 
+            // * Retrieve settings values
+            const config = vscode.workspace.getConfiguration("raythis");
+            const padding = config.get("padding", "16");
+            const title = config.get(
+                "title",
+                "Uploaded using RayThis Extension"
+            );
+            const theme = config.get("theme", "breeze");
+
             // * Generate URL & open in default browser,
             // * then send success message.
             const url = generateRayUrl(correctIndentation(selectedContent), {
-                title: "Uploaded using RayThis Extension",
-                theme: "breeze",
-                padding: "16",
+                title: title,
+                theme: theme,
+                padding: padding,
             });
 
             showInformationMessage(`Successfully generated Ray.so snippet!`);

@@ -41,6 +41,58 @@
                     "when": "editorHasSelection"
                 }
             ]
+        },
+        "configuration": {
+            "title": "Ray This Screenshots",
+            "properties": {
+                "rayThis.padding": {
+                    "type": "string",
+                    "default": "16",
+                    "enum": [
+                        "16",
+                        "32",
+                        "64",
+                        "128"
+                    ],
+                    "enumDescriptions": [
+                        "16px",
+                        "32px",
+                        "64px",
+                        "128px"
+                    ],
+                    "description": "Default image padding"
+                },
+                "rayThis.title": {
+                    "type": "string",
+                    "default": "Uploaded using RayThis Extension",
+                    "description": "Default snippet title"
+                },
+                "rayThis.theme": {
+                    "type": "string",
+                    "default": "breeze",
+                    "enum": [
+                        "breeze",
+                        "candy",
+                        "crimson",
+                        "falcon",
+                        "meadow",
+                        "midnight",
+                        "raindrop",
+                        "sunset"
+                    ],
+                    "enumDescriptions": [
+                        "Breeze",
+                        "Candy",
+                        "Crimson",
+                        "Falcon",
+                        "Meadow",
+                        "Midnight",
+                        "Raindrop",
+                        "Sunset"
+                    ],
+                    "description": "Default colour theme"
+                }
+            }
         }
     },
     "scripts": {
